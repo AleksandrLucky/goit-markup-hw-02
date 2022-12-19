@@ -7,6 +7,8 @@
       /* акцент                 #4D5AE5 */
       /* цвет фона(background)  #E5E5E5 */
       /* вторичный цвет фона    #F4F4FD */
+      /* цвет текста футера     #E7E9FC */
+      /* btn background         #404BBF */
 
 
 /* ----------------------------index------------------------- */
@@ -18,6 +20,8 @@
     --accent: #4D5AE5;
     --background-color: #E5E5E5;
     --secondary-background-color: #F4F4FD;
+    --color-footer-text: #E7E9FC;
+    --btn-background: #404BBF;
 }
 
 
@@ -45,10 +49,19 @@ ul{
     text-decoration: none;
     color: var(--body-text-color);
 }
+.link:hover,
+.link:focus{
+    color: var(--accent);
+
+}
 
 .contacts{
     text-decoration: none;
     color: var(--body-text-color);
+}
+.contacts:hover,
+.contacts:focus{
+    color: var(--accent);
 }
 
 
@@ -56,6 +69,16 @@ ul{
 
 .hero-title{
     color: var(--white);
+}
+
+.btn{
+    color: var(--white);
+    background-color: var(--accent);
+}
+.btn:hover,
+.btn:focus{
+    color: var(--white);
+    background-color: var(--btn-background);
 }
 
 
@@ -69,3 +92,42 @@ ul{
     color: var(--body-text-color);
 }
 
+.text{
+    color: var(--secondary-text-color);
+}
+
+/* Secion Two */
+
+
+/* Section Three */
+
+
+/* Footer */
+
+.logo-footer a{
+    text-decoration: none;
+    color: var(--secondary-background-color);
+}
+.footer-web{
+    color: var(--accent);
+}
+.logo-footer p{
+    color: var(--color-footer-text);
+}
+
+
+
+/* -------------------------Portfolio------------------------------- */
+
+
+/* Filtr section */
+
+.button{
+    color: var(--accent);
+    background-color: var(--secondary-background-color);
+}
+.button:hover,
+.button:focus{
+    color: var(--white);
+    background-color: var(--accent);
+}
