@@ -27,7 +27,7 @@
 
 body{
     color: var(--body-text-color);
-    background-color: var(--background-color);
+    background-color: var(--white);
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.02em;
 }
@@ -88,6 +88,8 @@ ul{
     font-weight: 600;
     font-size: 56px;
     line-height: 1.07;
+
+    text-align: center;
 }
 
 .btn{
@@ -99,6 +101,8 @@ ul{
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.04em;
+
+    text-align: center;
 }
 .btn:hover,
 .btn:focus{
@@ -115,6 +119,8 @@ ul{
     font-weight: 600;
     font-size: 36px;
     line-height: 1.11;
+
+    text-align: center;
 }
 
 .title{
