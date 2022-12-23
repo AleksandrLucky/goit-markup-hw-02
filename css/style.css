@@ -24,6 +24,15 @@
     --btn-background: #404BBF;
 }
 
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before ,
+*::after {
+    box-sizing: inherit;
+}
 
 body{
     color: var(--body-text-color);
