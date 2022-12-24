@@ -37,8 +37,11 @@ html {
 body{
     color: var(--body-text-color);
     background-color: var(--white);
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif, serif;
     letter-spacing: 0.02em;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 ul{
@@ -91,6 +94,12 @@ ul{
 
 /* HERO */
 
+
+.hero{
+    background-color: var(--body-text-color);
+    width: 1440px;
+}
+
 .hero-title{
     color: var(--white);
 
@@ -137,7 +146,9 @@ ul{
     font-weight: 600;
     font-size: 20px;
     line-height: 1.2;
+    text-decoration: none;
 }
+
 
 .features-list .title{
     color: var(--body-text-color);
@@ -154,8 +165,18 @@ ul{
 
 /* Section Three */
 
+.our-team {
+    background-color: var(--secondary-background-color);
+}
+
 
 /* Footer */
+
+
+div.footer{
+    background-color: var(--body-text-color);
+    width: 1440px;
+}
 
 .logo-footer a{
     text-decoration: none;
@@ -194,3 +215,4 @@ ul{
     color: var(--white);
     background-color: var(--accent);
 }
+
